@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      intent explicit
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="15dp"
+          app:cardCornerRadius="10dp"
+          app:cardElevation="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="10dp"
+             android:padding="15dp"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Intent Explicit"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_pidah_aktifity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pindah Aktifity" />
+         </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+
+      intent explicit dengan data
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="15dp"
+          app:cardCornerRadius="10dp"
+          android:layout_marginBottom="10dp"
+          app:cardElevation="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Intent Explicit Dengan Data"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Masukan Your Name"
+                android:inputType="textPersonName"
+                android:lines="1" />
+
+            <EditText
+                android:id="@+id/et_umur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Masukan Your Umur"
+                android:inputType="number"
+
+                android:lines="1" />
+
+            <Button
+                android:id="@+id/btn_intent_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kirim Data" />
+         </LinearLayout>
+
+      </com.google.android.material.card.MaterialCardView>
+
+      intent explicit dengan parcelable
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="15dp"
+          app:cardElevation="20dp"
+          app:cardCornerRadius="10dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Intent Explicit Dengan Parcelable"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nama_parc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Masukan Your Name"
+                android:inputType="text"
+                android:lines="1" />
+
+            <EditText
+                android:id="@+id/et_umur_parc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Masukan Your Umur"
+                android:inputType="number"
+                android:lines="1" />
+
+            <EditText
+                android:id="@+id/et_beratBadan_parc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Masukan Your Berat Badan"
+                android:inputType="numberDecimal"
+                android:lines="1" />
+
+            <Button
+                android:id="@+id/btn_intent_parc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kirim Data" />
+         </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      inten implicit
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="15dp"
+          app:cardCornerRadius="10dp"
+          app:cardElevation="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="10dp"
+             android:padding="15dp"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Intent Implicit"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_dial_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Dial A Number" />
+         </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+      inten aktivit resault
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="15dp"
+          app:cardCornerRadius="10dp"
+          android:layout_marginBottom="10dp"
+          app:cardElevation="20dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Intent Aktivit resault"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nama_ar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Masukan Your Name"
+                android:inputType="textPersonName"
+                android:lines="1" />
+            <Button
+                android:id="@+id/btn_intent_resault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kirim Data" />
+
+            <TextView
+                android:id="@+id/tv_hasil_resault"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="Hasil"/>
+         </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+
+
+   </LinearLayout>
+
+</ScrollView>

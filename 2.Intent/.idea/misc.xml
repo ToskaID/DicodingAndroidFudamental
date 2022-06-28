@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Toska/Documents/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Toska/Documents/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_move_with_parclable.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Toska/Documents/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_move_with_resault.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Toska/Documents/dicodingFudamental/2.Intent/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Toska/Documents/dicodingFudamental/2.Intent/app/src/main/res/layout/activity_move.xml" value="0.25" />
+        <entry key="..\:/Users/Toska/Documents/dicodingFudamental/2.Intent/app/src/main/res/layout/activity_move2.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/Toska/Documents/dicodingFudamental/2.Intent/app/src/main/res/layout/activity_move_with_data.xml" value="0.1600877192982456" />
+        <entry key="..\:/Users/Toska/Downloads/Compressed/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Toska/Downloads/Compressed/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_move_with_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Toska/Downloads/Compressed/DicodingAndroidFudamental-main/2.Intent/app/src/main/res/layout/activity_move_with_parclable.xml" value="0.20416666666666666" />
+        <entry key="..\:/dicodingFudamental/2.Intent/app/src/main/res/layout/activity_main.xml" value="0.20614035087719298" />
+        <entry key="..\:/dicodingFudamental/2.Intent/app/src/main/res/layout/activity_move2.xml" value="1.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
